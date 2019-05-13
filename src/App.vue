@@ -3,7 +3,14 @@
     <HelloWorld msg="Vue.js Directives"/>
     <div id="intro">
       <p>To use Vue.js directives, add this CDN inside the body element of your index.html file.</p>
-      <p>Note: if you want to publish with Vue.js code, it is best to use the vue-cli template.</p>
+      <p>
+        Note: if you want to publish with Vue.js code, it is best to use the
+        <a
+          href="https://cli.vuejs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >vue-cli template.</a>
+      </p>
       <pre id="intro-code">
             <code>
  development version of Vue.js:
