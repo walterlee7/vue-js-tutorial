@@ -27,6 +27,6 @@ export default {
   margin-right: auto;
   width: 30%;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 28px;
 }
 </style>
