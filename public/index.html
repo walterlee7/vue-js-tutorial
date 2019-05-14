@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div id="app"></div>
+    <!-- <div id="app"></div> -->
 
     <div id="intro">
         <p>To use Vue.js directives, add this CDN inside the body element of your index.html file.</p>
@@ -90,19 +90,7 @@
 
     <div id="app-1">
         <p v-cloak>{{ title }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <p>{{ message }} {{ message }} {{ message }} {{ message }} {{ message }}</p>
-        <button v-on:click="refresh">Refresh</button>
+        <p>{{ message }}</p>
     </div>
 
     <hr>
@@ -446,12 +434,6 @@
             data: {
                 title: 'Below html element is missing v-cloak, v-cloak is used to stop {{ message }} from rendering before the message appears, but you only need it if you are not using the vue-cli.',
                 message: 'Hello World!'
-            },
-            methods: {
-
-                refresh: function () {
-                    window.location.reload();
-                }
             }
         })
 
