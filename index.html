@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon type=image/png sizes=16x16 href=img/walt-favicon.png><title>Vue.js Tutorial</title><link rel=stylesheet href=style.css><link href=/vue-js-tutorial/css/app.7984d155.css rel=preload as=style><link href=/vue-js-tutorial/js/app.ab2725d9.js rel=preload as=script><link href=/vue-js-tutorial/js/chunk-vendors.ecd76ec1.js rel=preload as=script><link href=/vue-js-tutorial/css/app.7984d155.css rel=stylesheet></head><body><div id=app></div><div id=title v-cloak><p>{{ title }}</p></div><div id=intro><p>To use Vue.js directives, add this CDN inside the body element of your index.html file.</p><pre id=intro-code>
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon type=image/png sizes=16x16 href=img/walt-favicon.png><title>Vue.js Tutorial</title><link rel=stylesheet href=style.css><link href=/vue-js-tutorial/css/app.7984d155.css rel=preload as=style><link href=/vue-js-tutorial/js/app.ab2725d9.js rel=preload as=script><link href=/vue-js-tutorial/js/chunk-vendors.ecd76ec1.js rel=preload as=script><link href=/vue-js-tutorial/css/app.7984d155.css rel=stylesheet></head><body><div id=app></div><div id=intro><p>To use Vue.js directives, add this CDN inside the body element of your index.html file.</p><pre id=intro-code>
             <code>
  development version of Vue.js:
  &lt;script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"&gt;&lt;/script&gt;
@@ -185,14 +185,7 @@
             }
         })
                     </code>
-                </pre></td></tr></table><div id=app-7 v-cloak><p>{{ title }}</p><ol><todo-item v-for="item in groceryList" v-bind:todo=item v-bind:key=item.id></todo-item></ol></div><script src=https://cdn.jsdelivr.net/npm/vue></script><script>var title = new Vue({
-            el: '#title',
-            data: {
-                title: "Vue.js Directives"
-            }
-        })
-
-        var app1 = new Vue({
+                </pre></td></tr></table><div id=app-7 v-cloak><p>{{ title }}</p><ol><todo-item v-for="item in groceryList" v-bind:todo=item v-bind:key=item.id></todo-item></ol></div><script src=https://cdn.jsdelivr.net/npm/vue></script><script>var app1 = new Vue({
             el: '#app-0',
             data: {
                 title: "Declarative Rendering: ",

@@ -8,7 +8,7 @@ body {
     min-width: 811px;
 }
 
-#title {
+/* #title {
     background-color: rgb(212, 212, 212);
     border-radius: 15px;
     text-align: center;
@@ -21,7 +21,7 @@ body {
     width: 30%;
     font-weight: bold;
     font-size: 22px;
-}
+} */
 
 #v-title {
     background-color: rgb(109, 216, 248);
