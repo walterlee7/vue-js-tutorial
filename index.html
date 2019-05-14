@@ -13,7 +13,7 @@
                 &lt;p&gt;{{ message }}&lt;/p&gt;
             &lt;/div&gt;
                     </code>
-                </pre></td><td id=box><p id=center>JavaScript</p><pre id=code>
+                </pre></td></tr></table><table id=table><tr><td id=box><p id=center>JavaScript</p><pre id=code>
                     <code>
     var app = new Vue({
         el: '#app',
@@ -29,31 +29,28 @@
                     display: none;
                 }
                     </code>
-                </pre></td></tr></table><div id=app-1><p v-cloak>{{ title }}</p><p>{{ message }}</p></div><hr><p id=v-title>v-bind</p><table id=table><tr><td id=box><p id=center>HTML</p><pre id=code>
+                </pre></td></tr></table><div id=app-1><p v-cloak>{{ title }}</p><p>{{ message }}</p></div><hr><p id=v-title>v-bind</p><table id=table><tr><td id=box><p id=center-2>HTML</p><pre id=code>
                     <code>
  &lt;div id="app-2" v-cloak&gt;
      &lt;p&gt;{{ title }}&lt;/p&gt;
      &lt;br&gt;
      &lt;span v-bind:title="message"&gt;
-        Hover your mouse over me for a few seconds
-        to see my dynamically bound title!
+        Hover your mouse over me for a few seconds to see my dynamically bound title!
      &lt;/span&gt;
  &lt;/div&gt;
                     </code>
-                </pre></td><td id=box><p id=center>JavaScript</p><pre id=code>
-                    <code>
+                </pre></td></tr></table><table id=table><tr><td id=box><p id=center-2>JavaScript</p><pre id=code>
+                        <code>
     var app3 = new Vue({
         el: '#app-2',
         data: {
-            title: "Below text uses the v-bind
-            directive, which applies reactive
-            behavior to the rendered DOM.",
-            message: 'You loaded this page on ' +
+            title: "Below text uses the v-bind directive, which applies reactive
+            behavior to the rendered DOM.", message: 'You loaded this page on ' +
             new Date().toLocaleString()
         }
     })
-                    </code>
-                </pre></td></tr></table><div id=app-2 v-cloak><p>{{ title }}</p><br><span v-bind:title=message>Hover your mouse over me for a few seconds to see my dynamically bound title!</span></div><hr><p id=v-title>v-if</p><table id=table><tr><td id=box><p id=center>HTML</p><pre id=code>
+                        </code>
+                    </pre></td></tr></table><div id=app-2 v-cloak><p>{{ title }}</p><br><span v-bind:title=message>Hover your mouse over me for a few seconds to see my dynamically bound title!</span></div><hr><p id=v-title>v-if</p><table id=table><tr><td id=box><p id=center>HTML</p><pre id=code>
                     <code>
     &lt;div id="app-3" v-cloak&gt;
         &lt;p&gt;{{ title }}&lt;/p&gt;
@@ -61,8 +58,8 @@
         &lt;span v-if="seen"&gt;Now you see me&lt;/span&gt;
     &lt;/div&gt;
                     </code>
-                </pre></td><td id=box><p id=center>JavaScript</p><pre id=code>
-                    <code>
+                </pre></td></tr></table><table id=table><tr><td id=box><p id=center>JavaScript</p><pre id=code>
+                        <code>
     var app4 = new Vue({
         el: '#app-3',
         data: {
@@ -71,8 +68,8 @@
             seen: true
         }
     })
-                    </code>
-                </pre></td></tr></table><div id=app-3 v-cloak><p>{{ title }}</p><br><span v-if=seen>Now you see me</span></div><hr><p id=v-title>v-for</p><table id=table><tr><td id=box><p id=center-2>HTML</p><pre id=code>
+                        </code>
+                    </pre></td></tr></table><div id=app-3 v-cloak><p>{{ title }}</p><br><span v-if=seen>Now you see me</span></div><hr><p id=v-title>v-for</p><table id=table><tr><td id=box><p id=center-2>HTML</p><pre id=code>
                     <code>
             &lt;div id="app-4" v-cloak&gt;
                 &lt;p&gt;{{ title }}&lt;/p&gt;
